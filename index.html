@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Space</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="Logo.svg" type="image/svg">
+
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            
+            <label><img src="html.svg">HTML</label>    <!--icons from icons8-->
+            <textarea id="HTML-Code" onkeyup="run()"></textarea>
+            
+            <label><img src="css.svg">CSS</label>
+            <textarea id="CSS-Code" onkeyup="run()"></textarea>
+
+            <label><img id="js" src="javascript.svg">JS</label>
+            <textarea id="JS-Code" onkeyup="run()"></textarea>
+        </div>
+        <div class="right">
+            <iframe id="Output"></iframe>
+        </div>
+    </div>
+
+    
+    <script>
+        function run(){
+    let htmlCode = document.getElementById("HTML-Code").value;
+    let cssCode = document.getElementById("CSS-Code").value;
+    let jsCode = document.getElementById("JS-Code").value;
+    let Output = document.getElementById("Output");
+
+    Output.contentDocument.body.innerHTML = htmlCode + "<style>" + cssCode + "</style>";
+    Output.contentWindow.eval(jsCode);
+}
+    </script>
+
+</body>
+</html>

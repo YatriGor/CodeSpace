@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="78.562"
+   height="110.589"
+   id="javascript"
+   version="1.1"
+   sodipodi:docname="javascript.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs160" />
+  <sodipodi:namedview
+     id="namedview158"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="3.5039652"
+     inkscape:cx="25.827882"
+     inkscape:cy="35.816565"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="javascript" />
+  <path
+     fill="#e6a329"
+     d="M 78.204406,18.81709 H 3.4246915 l 7.0104195,76.021887 30.375631,8.615253 30.37563,-8.615253 z"
+     data-name="Path 275"
+     id="path147"
+     style="fill:#e8a427;fill-opacity:1;stroke-width:0.951856" />
+  <path
+     fill="#f1bf22"
+     d="m 40.810742,25.010817 v 72.001247 l 24.61119,-6.972346 5.987174,-65.028901 z"
+     data-name="Path 276"
+     id="path149"
+     style="fill:#f8cc41;fill-opacity:1;stroke-width:0.951856" />
+  <path
+     fill="#ffffff"
+     d="M 60.390421,34.337103 H 22.549384 l -2.63569,28.460495 0.05426,-0.177045 h 32.147982 l -1.047042,12.041931 -10.2572,2.950754 -10.408546,-2.998347 -0.623466,-7.288361 h -9.448123 l 1.347828,14.563397 19.132307,5.431291 19.140873,-5.431291 2.635689,-28.586141 H 28.469928 l 0.437854,-9.524271 H 52.57949 l 0.35409,5.45699 h 9.528079 z"
+     data-name="Path 277"
+     id="path151"
+     style="stroke-width:0.951856" />
+  <path
+     fill="#ebebeb"
+     d="M 40.819308,34.337103 H 22.549384 l -2.63569,28.460495 0.05426,-0.177045 H 40.818357 V 53.336149 H 29.800623 l 0.437854,-9.524271 H 40.819308 Z M 29.800623,67.331289 h -9.470016 l 1.347828,14.555782 19.132307,5.42558 V 77.626564 L 30.402196,74.620602 Z"
+     data-name="Path 278"
+     id="path153"
+     style="stroke-width:0.951856" />
+</svg>
