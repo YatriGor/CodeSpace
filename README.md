@@ -37,6 +37,7 @@ CodeSpace is an interactive coding environment that provides separate editors fo
 ---
 
 ## 📷 Screenshots
-![Image](https://github.com/user-attachments/assets/ce779219-bed6-4049-a67f-ad130cd1097e) | ![Image](https://github.com/user-attachments/assets/736286c9-5907-40b5-a733-36d866546476)
------------------------------------------------------------------------------------------ | -----------------------------------------------------------------------------------------
-![Image](https://github.com/user-attachments/assets/63b83c9c-9184-475e-b3a6-fdbbe9000127) | ![Image](https://github.com/user-attachments/assets/d172f531-9870-477c-ac36-10a50ce543b2)
+![Image](https://github.com/user-attachments/assets/ce779219-bed6-4049-a67f-ad130cd1097e)
+![Image](https://github.com/user-attachments/assets/736286c9-5907-40b5-a733-36d866546476)
+![Image](https://github.com/user-attachments/assets/63b83c9c-9184-475e-b3a6-fdbbe9000127)
+![Image](https://github.com/user-attachments/assets/d172f531-9870-477c-ac36-10a50ce543b2)
