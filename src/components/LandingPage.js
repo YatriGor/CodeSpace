@@ -1,14 +1,16 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { useAuth } from "./context/Auth";
 import backgroundImage from '../assets/bg2.jpg';
 
 function LandingPage() {
   const navigate = useNavigate();
+  const { user } = useAuth();
 
   return (
     <div
       className="min-h-screen flex flex-col justify-center items-center text-white font-sans bg-cover bg-center"
-      style={{ backgroundImage: `url(${backgroundImage})` }} // Use the imported image
+      style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       {/* Overlay to ensure text and buttons are readable */}
       <div className="absolute inset-0 heropattern-jigsaw-white opacity-20"></div>
@@ -32,6 +34,13 @@ function LandingPage() {
           >
             Start Coding
           </button>
+          {!user && (
+            <button
+              className="px-8 py-3 text-white font-semibold text-lg bg-gradient-to-r from-purple-500 to-pink-600  hover:shadow-[0px_0px_15px_rgba(219,39,119,0.8)] transition-all duration-300" onClick={() => navigate("/login")}
+            >
+              Login
+            </button>
+          )}
         </div>
       </div>
     </div>

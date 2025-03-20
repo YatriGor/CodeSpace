@@ -90,7 +90,7 @@ body{
 
 .gradient-border {
     border: 2px solid;
-    border-image: 30 round;
+    border-image: 30;
     border-radius: 10px;
     border-image-slice: 1;
     border-width: 1px;
