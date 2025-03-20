@@ -1,9 +1,3 @@
 {
-    "rewrites": [
-      {
-        "source": "/Code-Editor-React/:path*",
-        "destination": "/index.html"
-      }
-    ]
+    "rewrites": [{ "source": "/(.*)", "destination": "/" }]
   }
-  

@@ -11,12 +11,12 @@ import Dashboard from './components/Dashboard';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <AuthProvider>
-    <Router basename="/Code-Editor-React">
+    <Router> {/* Removed basename */}
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/editor" element={<App />} />
-        <Route path="/Dashboard" element={<Dashboard />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </Router>
   </AuthProvider>
