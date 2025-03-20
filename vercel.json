@@ -1,9 +1,9 @@
 {
     "rewrites": [
-      { "source": "/Code-Editor-React/**", "destination": "/index.html" }
-    ],
-    "redirects": [
-      { "source": "/Code-Editor-React", "destination": "/Code-Editor-React/", "statusCode": 308 }
+      {
+        "source": "/Code-Editor-React/:path*",
+        "destination": "/index.html"
+      }
     ]
   }
   
