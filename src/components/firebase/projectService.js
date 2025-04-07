@@ -1,4 +1,4 @@
-import { getFirestore, collection, getDocs, addDoc, deleteDoc, doc, updateDoc } from "firebase/firestore";
+import { getFirestore, collection, getDocs, getDoc,addDoc, deleteDoc, doc, updateDoc } from "firebase/firestore";
 import { auth } from "./firebase";  // Ensure this path is correct
 
 const db = getFirestore();
@@ -43,7 +43,7 @@ export const saveProjectData = async (name, html, css, js) => {
 
 export const getProjectById = async (id) => {
   const projectRef = doc(db, "projects", id);
-  const projectSnap = await getDocs(projectRef);
+  const projectSnap = await getDoc(projectRef);
   return projectSnap.exists() ? projectSnap.data() : null;
 };
 

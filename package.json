@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^13.5.0",
     "antd": "^5.24.4",
     "codemirror": "^5.65.18",
+    "date-fns": "^4.1.0",
     "firebase": "^11.4.0",
     "git": "^0.1.5",
     "hero-patterns": "^2.1.0",

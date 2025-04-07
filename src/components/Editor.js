@@ -8,7 +8,6 @@ import { Controlled as ControlledEditor } from 'react-codemirror2'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCompressAlt, faExpandAlt } from '@fortawesome/free-solid-svg-icons'
 
-// Importing SVG icons
 import htmlIcon from '../assets/html.svg'
 import cssIcon from '../assets/css.svg'
 import jsIcon from '../assets/js.svg'
@@ -23,7 +22,6 @@ export default function Editor(props) {
 
   const [open, setOpen] = useState(true)
 
-  // Determine the correct icon based on language
   const getIcon = (language) => {
     switch (language) {
       case 'xml': return htmlIcon
